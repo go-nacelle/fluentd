@@ -1,6 +1,6 @@
 # Nacelle Fluentd
 
-This image runs Fluentd to consume logs from applications using the [nacelle microservice framework](https://github.com/efritz/nacelle). The following is a minimal templated docker-compose file that redirects standard error logs from an application into elasticsearch.
+This image runs Fluentd to consume logs from applications using the [nacelle microservice framework](https://nacelle.dev). The following is a minimal templated docker-compose file that redirects standard error logs from an application into elasticsearch.
 
 ```yaml
 version: '3'
